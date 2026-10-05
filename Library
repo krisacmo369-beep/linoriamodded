@@ -2929,7 +2929,7 @@ function Library:CreateWindow(...)
         BorderSizePixel = 0;
         Position = Config.Position,
         Size = Config.Size,
-        Visible = true
+        Visible = true;
         ZIndex = 1;
         Parent = ScreenGui;
     });
